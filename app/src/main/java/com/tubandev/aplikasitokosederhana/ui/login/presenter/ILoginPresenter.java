@@ -1,5 +1,7 @@
 package com.tubandev.aplikasitokosederhana.ui.login.presenter;
 
+import android.util.Log;
+
 import com.tubandev.aplikasitokosederhana.ui.login.view.LoginView;
 
 /**
@@ -16,6 +18,6 @@ public class ILoginPresenter implements LoginPresenter {
 
     @Override
     public void login(String username, String password) {
-
+        Log.d("ds", username);
     }
 }
