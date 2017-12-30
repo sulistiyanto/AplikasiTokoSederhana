@@ -22,6 +22,7 @@
                 android:id="@+id/etName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textCapWords"
                 android:hint="Nama Barang"/>
         </android.support.design.widget.TextInputLayout>
 
@@ -34,6 +35,7 @@
                 android:id="@+id/etStock"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="number"
                 android:hint="Stok Barang"/>
         </android.support.design.widget.TextInputLayout>
 
@@ -45,6 +47,7 @@
                 android:id="@+id/etSupplier"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textCapWords"
                 android:hint="Pemasok"/>
         </android.support.design.widget.TextInputLayout>
 
@@ -56,6 +59,7 @@
                 android:id="@+id/etDesc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textCapWords"
                 android:hint="Keterangan"/>
         </android.support.design.widget.TextInputLayout>
 

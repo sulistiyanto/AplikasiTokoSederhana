@@ -8,4 +8,5 @@ import android.view.MenuItem;
 
 public interface FormPresenter {
     void backHome(MenuItem item);
+    void saveData(boolean connecting, String name, String stock, String supplier, String desc);
 }

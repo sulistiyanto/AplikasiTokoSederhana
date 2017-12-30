@@ -22,4 +22,10 @@ public interface API {
     @GET("list.php")
     Call<Result> loadData();
 
+    @FormUrlEncoded
+    @POST("insert.php")
+    Call<Result> save(@Field("nama") String name,
+                      @Field("stok") String stock,
+                      @Field("pemasok") String pemasok,
+                      @Field("keterangan") String keterangan);
 }

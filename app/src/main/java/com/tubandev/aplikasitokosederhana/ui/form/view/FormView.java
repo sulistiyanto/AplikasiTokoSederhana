@@ -8,4 +8,5 @@ import com.tubandev.aplikasitokosederhana.base.BaseView;
 
 public interface FormView extends BaseView{
     void back();
+    void success();
 }
