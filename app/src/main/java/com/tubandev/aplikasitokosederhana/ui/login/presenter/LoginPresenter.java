@@ -6,5 +6,5 @@ package com.tubandev.aplikasitokosederhana.ui.login.presenter;
 
 public interface LoginPresenter {
 
-    void login(String username, String password);
+    void login(boolean connecting, String username, String password);
 }
