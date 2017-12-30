@@ -53,6 +53,8 @@ public class AdapterBarang extends RecyclerView.Adapter<AdapterBarang.ViewHolder
         TextView txtPemasok;
         @BindView(R.id.txtDesc)
         TextView txtDesc;
+        @BindView(R.id.txtTime)
+        TextView txtTime;
 
         public ViewHolder(View itemView) {
             super(itemView);
@@ -61,6 +63,10 @@ public class AdapterBarang extends RecyclerView.Adapter<AdapterBarang.ViewHolder
 
         public void bindData(Barang barang) {
             txtNama.setText(barang.getNama());
+            txtStock.setText("Stok : " + barang.getStok());
+            txtPemasok.setText("Pemasok : " + barang.getPemasok());
+            txtDesc.setText("Keterangan : " + barang.getKeterangan());
+            txtTime.setText(barang.getTanggal());
         }
     }
 }
