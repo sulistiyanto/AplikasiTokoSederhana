@@ -25,6 +25,10 @@
         <activity
             android:name=".ui.home.MainActivity"
             android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.form.FormActivity"
+            android:label="@string/title_activity_form"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
